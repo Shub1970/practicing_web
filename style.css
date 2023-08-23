@@ -1,0 +1,31 @@
+@media (min-width: 800px) {
+  body {
+    border-left: 4px solid #f9f9f9;
+    border-right: 4px solid #f9f9f9;
+    padding: 1rem 2rem;
+  }
+
+  .IntroWrapper {
+    display: flex;
+    gap: 0 20px;
+    flex: 1 1 auto;
+    align-items: center;
+  }
+  .MoneyShot,
+  .IntorText {
+    margin: 0;
+    flex: 1 1 50%;
+  }
+
+  .MoneyShotImg {
+    filter: drop-shadow(0 0 20px #0008);
+    border: 0;
+  }
+
+  .IntorText {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    text-align: left;
+    position: relative;
+  }
+}
